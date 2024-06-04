@@ -53,6 +53,9 @@ const injectEvents = (
   if (events.onRouteComplete) {
     events.onRouteComplete();
   }
+
+  // remove the routeError event listener
+  events.off("routeError");
 };
 
 const useRouterWithEvents = (): RouterWithEvents => {
