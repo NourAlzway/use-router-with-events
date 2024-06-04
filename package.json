@@ -1,0 +1,39 @@
+{
+  "name": "use-router-with-events",
+  "version": "0.0.1",
+  "description": "A custom React Wrapper Hook for Next.js App Router with Events",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "author": "Nouraldeen Alzway",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "image",
+    "router",
+    "app-router",
+    "events",
+    "router-events",
+    "next",
+    "custom-hooks",
+    "react-hooks"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NourAlzway/use-router-with-events"
+  },
+  "peerDependencies": {
+    "next": ">=14.0.0",
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.2",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  }
+}
