@@ -76,11 +76,11 @@ const PortfolioPage = () => {
   const router = useRouterWithEvents();
 
   const handleClick = () => {
-    // we can use the onRouteComplete event to track the route chang after the navigation is completed,
-    // for example, we can send an event to google analytics.
+    // we can use the onRouteComplete event to track the route change after the navigation is completed,
+    // for example, we can send an event to Google Analytics.
     router.events.onRouteComplete = () => {
       /**
-       * here you can add your custom logic, for example, send an event to google analytics.
+       * here you can add your custom logic, for example, send an event to Google Analytics.
        *
        */
       (window as any).gtag = {
@@ -96,14 +96,14 @@ const PortfolioPage = () => {
     // navigate to the about page
     router.push("/about");
 
-    // we can test the logic by checking the `window.gtag` in the console
+    // we can test the logic by checking the `window.gtag` in the console.
   };
 
   return (
     <div>
       ...
       <button className="..." onClick={handleClick}>
-        Learn more about me in the about page
+        Learn more about me on the about page
       </button>
     </div>
   );
@@ -242,8 +242,12 @@ declare class EventsHandler {
 
 ## Example
 
-see the full example in the [examples] folder
+check the full example in the [examples] folder
 
 ## License
 
 This project is licensed under the MIT License.
+
+## Contributing
+
+Contributions are always welcome!, if you have any ideas, just open an issue and tell me what you think :) .

@@ -5,7 +5,7 @@ const PortfolioPage = () => {
   const router = useRouterWithEvents();
 
   const handleClick = () => {
-    // we can use the onRouteComplete event to track the route chang after the navigation is completed, for example, we can send an event to google analytics.
+    // we can use the onRouteComplete event to track the route change after the navigation is completed, for example, we can send an event to google analytics.
     router.events.onRouteComplete = () => {
       /**
        * here you can add your custom logic, for example, send an event to google analytics.
