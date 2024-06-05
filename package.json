@@ -13,12 +13,14 @@
   "license": "MIT",
   "keywords": [
     "react",
+    "react.js",
     "image",
     "router",
     "app-router",
     "events",
     "router-events",
     "next",
+    "next.js",
     "custom-hooks",
     "react-hooks"
   ],
