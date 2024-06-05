@@ -1,6 +1,6 @@
 {
   "name": "use-router-with-events",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "A custom React Wrapper Hook for Next.js App Router with Events",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
