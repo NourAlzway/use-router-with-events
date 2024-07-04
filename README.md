@@ -8,6 +8,7 @@
 
 [![npm version](https://img.shields.io/npm/v/use-router-with-events.svg)](https://www.npmjs.com/package/use-router-with-events)
 [![npm downloads](https://img.shields.io/npm/dm/use-router-with-events.svg)](https://www.npmjs.com/package/use-router-with-events)
+![npm downloads](https://img.shields.io/npm/dt/use-router-with-events?style=flat&label=Total%20Downloads)
 [![npm bundle size](https://img.shields.io/bundlephobia/min/use-router-with-events)](https://www.npmjs.com/package/use-router-with-events)
 [![npm bundle size](https://img.shields.io/bundlephobia/minzip/use-router-with-events)](https://www.npmjs.com/package/use-router-with-events)
 [![npm license](https://img.shields.io/npm/l/use-router-with-events)](https://www.npmjs.com/package/use-router-with-events)
