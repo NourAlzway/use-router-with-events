@@ -29,9 +29,9 @@
     "url": "https://github.com/NourAlzway/use-router-with-events"
   },
   "peerDependencies": {
-    "next": ">=14.0.0",
-    "react": ">=16.8.0",
-    "react-dom": ">=16.8.0"
+    "next": ">=14.0.0 || ^15.0.0-rc.x",
+    "react": ">=16.8.0  || ^19.0.0-rc.x",
+    "react-dom": ">=16.8.0  || ^19.0.0-rc.x"
   },
   "devDependencies": {
     "@types/react": "^18.3.2",
